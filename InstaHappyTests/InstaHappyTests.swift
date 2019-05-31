@@ -2,7 +2,7 @@
 //  InstaHappyTests.swift
 //  InstaHappyTests
 //
-//  Created by Kaliraj Kalimuthu on 3/19/19.
+//  Created by Shravan on 3/19/19.
 //  Copyright © 2019 Shravan. All rights reserved.
 //
 

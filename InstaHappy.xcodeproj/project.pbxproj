@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA6E46BB86F4605EFA9BFFD /* Pods_InstaHappyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C624F8E8EAC81A0D1E9F7DD /* Pods_InstaHappyUITests.framework */; };
+		4C137F36798EAA095F69E7DB /* Pods_InstaHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEF5BEFD0392EA959BF70B /* Pods_InstaHappy.framework */; };
 		6067DCC42241DD57000F0877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067DCC32241DD57000F0877 /* AppDelegate.swift */; };
 		6067DCC62241DD57000F0877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067DCC52241DD57000F0877 /* ViewController.swift */; };
 		6067DCC92241DD57000F0877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6067DCC72241DD57000F0877 /* Main.storyboard */; };
@@ -14,6 +16,24 @@
 		6067DCCE2241DD58000F0877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6067DCCC2241DD58000F0877 /* LaunchScreen.storyboard */; };
 		6067DCD92241DD58000F0877 /* InstaHappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067DCD82241DD58000F0877 /* InstaHappyTests.swift */; };
 		6067DCE42241DD58000F0877 /* InstaHappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6067DCE32241DD58000F0877 /* InstaHappyUITests.swift */; };
+		6067DCF42241F1A5000F0877 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 6067DCF32241F1A5000F0877 /* GoogleService-Info (1).plist */; };
+		60BF478C224AD447008FD178 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 6067DCF32241F1A5000F0877 /* GoogleService-Info (1).plist */; };
+		60BF478D224AD448008FD178 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 6067DCF32241F1A5000F0877 /* GoogleService-Info (1).plist */; };
+		60BF479A224ADD91008FD178 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF4799224ADD91008FD178 /* ForgotPasswordViewController.swift */; };
+		60BF479C224AE291008FD178 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF479B224AE291008FD178 /* ProfileViewController.swift */; };
+		60BF479E224B0D85008FD178 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF479D224B0D85008FD178 /* HomeViewController.swift */; };
+		60BF47A0224B0D9D008FD178 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF479F224B0D9D008FD178 /* PostViewController.swift */; };
+		60BF47A2224B0DAF008FD178 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF47A1224B0DAF008FD178 /* SearchViewController.swift */; };
+		60BF47A4224B0DCF008FD178 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF47A3224B0DCF008FD178 /* LikeViewController.swift */; };
+		60BF47A8224B103B008FD178 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60BF47A7224B103B008FD178 /* GoogleService-Info.plist */; };
+		60BF47AD224B2EB2008FD178 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF47AC224B2EB2008FD178 /* SignUpViewController.swift */; };
+		60BF47F4225451C5008FD178 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF47F3225451C5008FD178 /* PostModel.swift */; };
+		60BF47F6225462C2008FD178 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF47F5225462C2008FD178 /* UserModel.swift */; };
+		60BF48812266D1E3008FD178 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF487F2266D1E3008FD178 /* SearchTableViewCell.swift */; };
+		60BF48822266D1E3008FD178 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BF48802266D1E3008FD178 /* SearchTableViewCell.xib */; };
+		60FE2D75224AC40A00E2C671 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE2D74224AC40A00E2C671 /* Extensions.swift */; };
+		60FE2D77224AC96800E2C671 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE2D76224AC96800E2C671 /* KeyChainService.swift */; };
+		97CA0335EB90C8E8244130E2 /* Pods_InstaHappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF38A2F69557F3C3108079D /* Pods_InstaHappyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38EAF8EC66FB6B02B96D947D /* Pods-InstaHappyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappyUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaHappyUITests/Pods-InstaHappyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C624F8E8EAC81A0D1E9F7DD /* Pods_InstaHappyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaHappyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538002058BFBC1543ECAA27B /* Pods-InstaHappyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappyTests.release.xcconfig"; path = "Target Support Files/Pods-InstaHappyTests/Pods-InstaHappyTests.release.xcconfig"; sourceTree = "<group>"; };
 		6067DCC02241DD57000F0877 /* InstaHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067DCC32241DD57000F0877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6067DCC52241DD57000F0877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,28 @@
 		6067DCDF2241DD58000F0877 /* InstaHappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaHappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6067DCE32241DD58000F0877 /* InstaHappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaHappyUITests.swift; sourceTree = "<group>"; };
 		6067DCE52241DD58000F0877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6067DCF32241F1A5000F0877 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		60BF4799224ADD91008FD178 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		60BF479B224AE291008FD178 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		60BF479D224B0D85008FD178 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60BF479F224B0D9D008FD178 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		60BF47A1224B0DAF008FD178 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		60BF47A3224B0DCF008FD178 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		60BF47A7224B103B008FD178 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60BF47AA224B2104008FD178 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60BF47AC224B2EB2008FD178 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		60BF47F3225451C5008FD178 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		60BF47F5225462C2008FD178 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		60BF487F2266D1E3008FD178 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		60BF48802266D1E3008FD178 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		60FE2D74224AC40A00E2C671 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		60FE2D76224AC96800E2C671 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		9D0F12B6F9081206EF7977B0 /* Pods-InstaHappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappyTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaHappyTests/Pods-InstaHappyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEC3194669CF3F997F55A0E /* Pods-InstaHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappy.release.xcconfig"; path = "Target Support Files/Pods-InstaHappy/Pods-InstaHappy.release.xcconfig"; sourceTree = "<group>"; };
+		BFCEF5BEFD0392EA959BF70B /* Pods_InstaHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F0664068EBD2168BAE4871 /* Pods-InstaHappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappyUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaHappyUITests/Pods-InstaHappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1CB7168DCBD3AD3325FA4D6 /* Pods-InstaHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaHappy.debug.xcconfig"; path = "Target Support Files/Pods-InstaHappy/Pods-InstaHappy.debug.xcconfig"; sourceTree = "<group>"; };
+		DAF38A2F69557F3C3108079D /* Pods_InstaHappyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaHappyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C137F36798EAA095F69E7DB /* Pods_InstaHappy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CA0335EB90C8E8244130E2 /* Pods_InstaHappyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA6E46BB86F4605EFA9BFFD /* Pods_InstaHappyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +125,16 @@
 		6067DCB72241DD57000F0877 = {
 			isa = PBXGroup;
 			children = (
+				60FE2D73224AC3E000E2C671 /* Utils */,
+				6067DCF52241F4C9000F0877 /* Model */,
+				6067DCF22241DDB2000F0877 /* View */,
+				6067DCF12241DD99000F0877 /* Controller */,
 				6067DCC22241DD57000F0877 /* InstaHappy */,
 				6067DCD72241DD58000F0877 /* InstaHappyTests */,
 				6067DCE22241DD58000F0877 /* InstaHappyUITests */,
 				6067DCC12241DD57000F0877 /* Products */,
+				F806E99C945BD27EAF8D35F9 /* Pods */,
+				7039F9622F8B208B69615C6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +151,8 @@
 		6067DCC22241DD57000F0877 /* InstaHappy */ = {
 			isa = PBXGroup;
 			children = (
+				60BF47A7224B103B008FD178 /* GoogleService-Info.plist */,
 				6067DCC32241DD57000F0877 /* AppDelegate.swift */,
-				6067DCC52241DD57000F0877 /* ViewController.swift */,
-				6067DCC72241DD57000F0877 /* Main.storyboard */,
 				6067DCCA2241DD58000F0877 /* Assets.xcassets */,
 				6067DCCC2241DD58000F0877 /* LaunchScreen.storyboard */,
 				6067DCCF2241DD58000F0877 /* Info.plist */,
@@ -112,6 +165,7 @@
 			children = (
 				6067DCD82241DD58000F0877 /* InstaHappyTests.swift */,
 				6067DCDA2241DD58000F0877 /* Info.plist */,
+				6067DCF32241F1A5000F0877 /* GoogleService-Info (1).plist */,
 			);
 			path = InstaHappyTests;
 			sourceTree = "<group>";
@@ -125,6 +179,73 @@
 			path = InstaHappyUITests;
 			sourceTree = "<group>";
 		};
+		6067DCF12241DD99000F0877 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6067DCC52241DD57000F0877 /* ViewController.swift */,
+				60BF4799224ADD91008FD178 /* ForgotPasswordViewController.swift */,
+				60BF479B224AE291008FD178 /* ProfileViewController.swift */,
+				60BF479D224B0D85008FD178 /* HomeViewController.swift */,
+				60BF479F224B0D9D008FD178 /* PostViewController.swift */,
+				60BF47A1224B0DAF008FD178 /* SearchViewController.swift */,
+				60BF47A3224B0DCF008FD178 /* LikeViewController.swift */,
+				60BF47AC224B2EB2008FD178 /* SignUpViewController.swift */,
+				60BF487F2266D1E3008FD178 /* SearchTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6067DCF22241DDB2000F0877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6067DCC72241DD57000F0877 /* Main.storyboard */,
+				60BF48802266D1E3008FD178 /* SearchTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6067DCF52241F4C9000F0877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60BF47F3225451C5008FD178 /* PostModel.swift */,
+				60BF47F5225462C2008FD178 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60FE2D73224AC3E000E2C671 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				60BF47AA224B2104008FD178 /* GoogleService-Info.plist */,
+				60FE2D76224AC96800E2C671 /* KeyChainService.swift */,
+				60FE2D74224AC40A00E2C671 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7039F9622F8B208B69615C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFCEF5BEFD0392EA959BF70B /* Pods_InstaHappy.framework */,
+				DAF38A2F69557F3C3108079D /* Pods_InstaHappyTests.framework */,
+				4C624F8E8EAC81A0D1E9F7DD /* Pods_InstaHappyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F806E99C945BD27EAF8D35F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB7168DCBD3AD3325FA4D6 /* Pods-InstaHappy.debug.xcconfig */,
+				BCEC3194669CF3F997F55A0E /* Pods-InstaHappy.release.xcconfig */,
+				9D0F12B6F9081206EF7977B0 /* Pods-InstaHappyTests.debug.xcconfig */,
+				538002058BFBC1543ECAA27B /* Pods-InstaHappyTests.release.xcconfig */,
+				D0F0664068EBD2168BAE4871 /* Pods-InstaHappyUITests.debug.xcconfig */,
+				38EAF8EC66FB6B02B96D947D /* Pods-InstaHappyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6067DCE82241DD58000F0877 /* Build configuration list for PBXNativeTarget "InstaHappy" */;
 			buildPhases = (
+				7DC448DF542C8B125B246E73 /* [CP] Check Pods Manifest.lock */,
 				6067DCBC2241DD57000F0877 /* Sources */,
 				6067DCBD2241DD57000F0877 /* Frameworks */,
 				6067DCBE2241DD57000F0877 /* Resources */,
+				AB2ED53C1E8558736625F84B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6067DCEB2241DD58000F0877 /* Build configuration list for PBXNativeTarget "InstaHappyTests" */;
 			buildPhases = (
+				27A0FA688EBFE4573DA04866 /* [CP] Check Pods Manifest.lock */,
 				6067DCD02241DD58000F0877 /* Sources */,
 				6067DCD12241DD58000F0877 /* Frameworks */,
 				6067DCD22241DD58000F0877 /* Resources */,
@@ -167,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6067DCEE2241DD58000F0877 /* Build configuration list for PBXNativeTarget "InstaHappyUITests" */;
 			buildPhases = (
+				FFBD2C5395EB6FA7AE4E1059 /* [CP] Check Pods Manifest.lock */,
 				6067DCDB2241DD58000F0877 /* Sources */,
 				6067DCDC2241DD58000F0877 /* Frameworks */,
 				6067DCDD2241DD58000F0877 /* Resources */,
@@ -231,7 +356,10 @@
 			files = (
 				6067DCCE2241DD58000F0877 /* LaunchScreen.storyboard in Resources */,
 				6067DCCB2241DD58000F0877 /* Assets.xcassets in Resources */,
+				60BF47A8224B103B008FD178 /* GoogleService-Info.plist in Resources */,
 				6067DCC92241DD57000F0877 /* Main.storyboard in Resources */,
+				60BF478C224AD447008FD178 /* GoogleService-Info (1).plist in Resources */,
+				60BF48822266D1E3008FD178 /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6067DCF42241F1A5000F0877 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +375,132 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BF478D224AD448008FD178 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A0FA688EBFE4573DA04866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaHappyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC448DF542C8B125B246E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaHappy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB2ED53C1E8558736625F84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaHappy/Pods-InstaHappy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaHappy/Pods-InstaHappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBD2C5395EB6FA7AE4E1059 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaHappyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6067DCBC2241DD57000F0877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BF47AD224B2EB2008FD178 /* SignUpViewController.swift in Sources */,
+				60BF47F4225451C5008FD178 /* PostModel.swift in Sources */,
+				60BF47A2224B0DAF008FD178 /* SearchViewController.swift in Sources */,
+				60BF47A0224B0D9D008FD178 /* PostViewController.swift in Sources */,
 				6067DCC62241DD57000F0877 /* ViewController.swift in Sources */,
+				60BF47F6225462C2008FD178 /* UserModel.swift in Sources */,
+				60BF479A224ADD91008FD178 /* ForgotPasswordViewController.swift in Sources */,
+				60BF479E224B0D85008FD178 /* HomeViewController.swift in Sources */,
+				60FE2D77224AC96800E2C671 /* KeyChainService.swift in Sources */,
+				60BF479C224AE291008FD178 /* ProfileViewController.swift in Sources */,
+				60FE2D75224AC40A00E2C671 /* Extensions.swift in Sources */,
+				60BF47A4224B0DCF008FD178 /* LikeViewController.swift in Sources */,
 				6067DCC42241DD57000F0877 /* AppDelegate.swift in Sources */,
+				60BF48812266D1E3008FD178 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +673,7 @@
 		};
 		6067DCE92241DD58000F0877 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CB7168DCBD3AD3325FA4D6 /* Pods-InstaHappy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +691,7 @@
 		};
 		6067DCEA2241DD58000F0877 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEC3194669CF3F997F55A0E /* Pods-InstaHappy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +709,7 @@
 		};
 		6067DCEC2241DD58000F0877 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0F12B6F9081206EF7977B0 /* Pods-InstaHappyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +730,7 @@
 		};
 		6067DCED2241DD58000F0877 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538002058BFBC1543ECAA27B /* Pods-InstaHappyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +751,7 @@
 		};
 		6067DCEF2241DD58000F0877 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F0664068EBD2168BAE4871 /* Pods-InstaHappyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +771,7 @@
 		};
 		6067DCF02241DD58000F0877 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EAF8EC66FB6B02B96D947D /* Pods-InstaHappyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
